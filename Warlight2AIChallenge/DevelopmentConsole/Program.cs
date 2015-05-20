@@ -1,7 +1,7 @@
 ﻿// <copyright file="Program.cs" company="RAGNOARAKNOS">
 //  This codebase and associated tools are covered by the MIT license
 // </copyright>
-namespace Warlight2
+namespace Warlight2.DevCon
 {
     using System;
     using System.Collections.Generic;
