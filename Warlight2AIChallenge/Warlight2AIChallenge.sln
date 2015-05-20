@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopmentConsole", "Devel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopmentGUI", "DevelopmentGUI\DevelopmentGUI.csproj", "{5ED89F2B-486F-4C8F-ABE9-DFBEFA660FCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandParsers", "CommandParsers\CommandParsers.csproj", "{13B559F8-485C-425B-B06D-1925E10B08AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5ED89F2B-486F-4C8F-ABE9-DFBEFA660FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED89F2B-486F-4C8F-ABE9-DFBEFA660FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED89F2B-486F-4C8F-ABE9-DFBEFA660FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B559F8-485C-425B-B06D-1925E10B08AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B559F8-485C-425B-B06D-1925E10B08AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B559F8-485C-425B-B06D-1925E10B08AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B559F8-485C-425B-B06D-1925E10B08AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
