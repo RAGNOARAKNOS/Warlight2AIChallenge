@@ -14,5 +14,6 @@ namespace Warlight2.CommandParsers
     /// </summary>
     public interface IBotParser
     {
+        //TEST
     }
 }
