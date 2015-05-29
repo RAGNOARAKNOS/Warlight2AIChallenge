@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <StackPanel>
+            <TextBlock Margin="20">Warlight2 AI Solution</TextBlock>
+        </StackPanel>
     </Grid>
 </Window>
