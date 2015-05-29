@@ -1,4 +1,11 @@
 using GalaSoft.MvvmLight;
+//Tutorial http://www.dotnetcurry.com/showarticle.aspx?ID=1037
+
+
+using System.Collections.ObjectModel;
+using DevGUI.Model;
+using DevGUI.Services;
+using GalaSoft.MvvmLight.Command;
 
 namespace DevGUI.ViewModel
 {
@@ -16,6 +23,34 @@ namespace DevGUI.ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
+        IDataAccessService _serviceProxy;
+
+        ObservableCollection<Name> _Names;
+
+        public ObservableCollection<Name> Names
+        {
+            get
+            {
+                return _Names;
+            }
+            set
+            {
+                _Names = value;
+                RaisePropertyChanged("Employees");
+            }
+        }
+
+        void GetNames()
+        {
+            Names.Clear();
+            foreach (var item in _serviceProxy.GetNames())
+            {
+                Names.Add(item);
+            }
+        }
+
+        public RelayCommand ReadAllCommand { get; set; }
+
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>

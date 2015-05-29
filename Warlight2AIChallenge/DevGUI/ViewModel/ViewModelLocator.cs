@@ -16,6 +16,8 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
 
+using DevGUI.Services;
+
 namespace DevGUI.ViewModel
 {
     /// <summary>
@@ -43,6 +45,7 @@ namespace DevGUI.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<IDataAccessService, DataAccessService>();
         }
 
         public MainViewModel Main
